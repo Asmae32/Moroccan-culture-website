@@ -1,0 +1,110 @@
+/* 1. Variables */
+:root {
+    --terracotta: #E76F51;
+    --sand: #F4A261;
+    --deep-blue: #264653;
+    --cream: #FFF8F0;
+    --text: #2A2A2A;
+    --white: #FFFFFF;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
+}
+
+/* 2. Global Styles */
+body {
+    font-family: var(--font-body);
+    background-color: var(--cream);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* 3. Hero Section */
+.hero {
+    background: linear-gradient(rgba(38, 70, 83, 0.8), rgba(38, 70, 83, 0.8)), url('https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* 4. Navigation */
+.journal-nav {
+    background-color: var(--deep-blue);
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.journal-nav a {
+    color: var(--cream);
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.journal-nav a:hover {
+    color: var(--sand);
+}
+
+/* 5. Journal Container */
+.journal-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.journal-entry {
+    background-color: var(--white);
+    padding: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--terracotta);
+}
+
+.journal-entry h2 {
+    font-family: var(--font-heading);
+    color: var(--deep-blue);
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.journal-entry h2 i {
+    color: var(--terracotta);
+    margin-right: 10px;
+}
+
+/* 6. Footer */
+footer {
+    background-color: var(--deep-blue);
+    color: var(--cream);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
