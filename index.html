@@ -163,11 +163,159 @@
 
 
 
-        <!-- Culture & Traditions Section -->
-        <section id="culture" class="section">
-            <h2>Culture & Traditions</h2>
-            <p>Moroccan culture is a blend of Arab, Berber, and European influences. Key traditions include mint tea ceremonies, traditional music, and festivals like Eid al-Fitr.</p>
-        </section>
+       <!-- Culture & Traditions Section -->
+<section id="culture" class="section">
+    <h2><i class="fa-solid fa-people-group"></i> Culture & Traditions of Morocco</h2>
+
+    <!-- Tab Navigation -->
+    <div class="culture-tabs">
+        <button class="tab-button active" onclick="openTab(event, 'clothing')">Traditional Clothing</button>
+        <button class="tab-button" onclick="openTab(event, 'food')">Traditional Foods</button>
+        <button class="tab-button" onclick="openTab(event, 'music')">Music & Dance</button>
+        <button class="tab-button" onclick="openTab(event, 'wedding')">Traditional Wedding</button>
+        <button class="tab-button" onclick="openTab(event, 'ceremonies')">Ceremonies & Festivals</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div id="clothing" class="tab-content" style="display: block;">
+        <h3>Traditional Clothing</h3>
+        <div class="culture-content">
+            <div class="culture-text">
+                <p>Moroccan traditional clothing reflects the country's rich history and cultural diversity. The most iconic pieces include:</p>
+                <ul>
+                    <li><strong>Djellaba:</strong> A long, hooded robe with full sleeves, worn by both men and women. It is often made of wool for winter or cotton for summer.</li>
+                    <li><strong>Kaftan:</strong> A more formal, elegant dress worn by women, often adorned with intricate embroidery and beadwork.</li>
+                    <li><strong>Takchita:</strong> A two-piece outfit consisting of a fitted dress underneath and a flowing outer layer, popular for weddings and celebrations.</li>
+                    <li><strong>Balgha:</strong> Traditional Moroccan slippers made of leather, often decorated with embroidery.</li>
+                </ul>
+                <p>The colors and patterns of these garments vary by region and occasion. For example, brides often wear white or gold kaftans, while everyday djellabas are more subdued in color.</p>
+            </div>
+            <div class="culture-images">
+                <div class="culture-image">
+                    <img src="images/caftan2.png" alt="Moroccan Caftan">
+                    <p>Elegant Caftan</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/caftan3.png" alt="Moroccan Caftan">
+                    <p>Elegant Takchita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="food" class="tab-content">
+        <h3>Traditional Foods</h3>
+        <div class="culture-content">
+            <div class="culture-text">
+                <p>Moroccan cuisine is a flavorful blend of Arab, Berber, and Mediterranean influences. Some of the most iconic dishes include:</p>
+                <ul>
+                    <li><strong>Tagine:</strong> A slow-cooked stew named after the earthenware pot it's cooked in. It typically includes meat (lamb, chicken, or beef), vegetables, and a blend of spices like cumin, coriander, and saffron.</li>
+                    <li><strong>Couscous:</strong> A staple dish made from steamed semolina, often served with vegetables, meat, and a flavorful broth.</li>
+                    <li><strong>Pastilla:</strong> A sweet and savory pie made with layers of thin pastry, spiced pigeon or chicken, almonds, and powdered sugar.</li>
+                    <li><strong>Harira:</strong> A hearty soup made with tomatoes, lentils, chickpeas, and lamb, traditionally served during Ramadan to break the fast.</li>
+                </ul>
+                <p>Moroccan cuisine is also known for its use of spices like <strong>ras el hanout</strong>, <strong>cinnamon</strong>, and <strong>ginger</strong>, which add depth and complexity to the dishes.</p>
+            </div>
+            <div class="culture-images">
+                <div class="culture-image">
+                    <img src="images/tagine.png" alt="Moroccan Tagine">
+                    <p>Traditional Tagine</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/cuisine3.png" alt="Moroccan Couscous">
+                    <p>Fluffy Couscous</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/harira.png" alt="Moroccan Harira">
+                    <p>Traditional Harira</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/pastilla.png" alt="Moroccan Pastilla">
+                    <p>Traditional Pastilla</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="music" class="tab-content">
+        <h3>Music & Dance</h3>
+        <div class="culture-content">
+            <div class="culture-text">
+                <p>Music and dance are integral to Moroccan culture, reflecting the country's diverse heritage. Some of the most popular traditional music styles include:</p>
+                <ul>
+                    <li><strong>Gnawa:</strong> A spiritual music genre with roots in sub-Saharan Africa. It features instruments like the <strong>guembri</strong> (a three-stringed lute) and is often performed during festivals and ceremonies.</li>
+                    <li><strong>Andalusian Music:</strong> A classical style with Arab-Andalusian roots, often performed with instruments like the <strong>oud</strong> (lute) and <strong>violin</strong>.</li>
+                    <li><strong>Ahidous:</strong> A collective dance performed by Berber communities in the Atlas Mountains. It involves rhythmic movements and chanting.</li>
+                    <li><strong>Chaabi:</strong> A popular urban music genre that blends traditional and modern influences, often performed at weddings and celebrations.</li>
+                </ul>
+                <p>Moroccan music is often accompanied by lively dance performances, especially during weddings and festivals.</p>
+            </div>
+            <div class="culture-images">
+                <div class="culture-image">
+                    <img src="images/gnawa.png" alt="Gnawa Musician">
+                    <p>Gnawa Musician</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/chaabi.png" alt="Chaabi Music Performance">
+                    <p>Chaabi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="wedding" class="tab-content">
+        <h3>Traditional Wedding</h3>
+        <div class="culture-content">
+            <div class="culture-text">
+                <p>A Moroccan wedding is a grand, multi-day celebration filled with rituals, music, and feasting. The traditions vary by region but often include:</p>
+                <ul>
+                    <li><strong>Henna Night (Laylat al-Henna):</strong> A pre-wedding celebration where the bride's hands and feet are adorned with intricate henna designs. This event is filled with music, dancing, and sweets.</li>
+                    <li><strong>Procession (Zaffa):</strong> On the wedding day, the bride and groom are paraded through the streets with a lively procession of music, dancers, and fireworks.</li>
+                    <li><strong>Ceremony (Fatha):</strong> The religious ceremony where the marriage contract is signed. It is often held in a beautifully decorated venue.</li>
+                    <li><strong>Feast (Walda):</strong> A lavish spread of Moroccan dishes, including tagine, couscous, and pastries, is served to guests.</li>
+                </ul>
+                <p>Weddings in Morocco are not just about the couple but also about bringing families and communities together.</p>
+            </div>
+            <div class="culture-images">
+                <div class="culture-image">
+                    <img src="images/henna.png" alt="Moroccan Henna Night">
+                    <p>Henna Night</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/bride.png" alt="Moroccan Wedding Procession">
+                    <p>Wedding Procession</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ceremonies" class="tab-content">
+        <h3>Ceremonies & Festivals</h3>
+        <div class="culture-content">
+            <div class="culture-text">
+                <p>Morocco is known for its vibrant festivals and ceremonies, which celebrate religious, cultural, and seasonal events. Some of the most important include:</p>
+                <ul>
+                    <li><strong>Eid al-Fitr:</strong> A three-day festival marking the end of Ramadan. Families gather for feasting, prayers, and giving to charity.</li>
+                    <li><strong>Eid al-Adha:</strong> Also known as the Festival of Sacrifice, it commemorates Ibrahim's willingness to sacrifice his son. Families sacrifice an animal (usually a sheep) and share the meat with the poor.</li>
+                    <li><strong>Mawazine Festival:</strong> One of Africa's largest music festivals, held annually in Rabat. It features international and local artists performing a variety of genres.</li>
+                    <li><strong>Imilchil Marriage Festival:</strong> A unique event in the Atlas Mountains where Berber tribes gather to arrange marriages and celebrate with music and dance.</li>
+                </ul>
+                <p>These festivals are a fantastic way to experience Morocco's rich cultural heritage and hospitality.</p>
+            </div>
+            <div class="culture-images">
+                <div class="culture-image">
+                    <img src="images/eid.png" alt="Eid al-Fitr Celebrations">
+                    <p>Eid al-Fitr Celebrations</p>
+                </div>
+                <div class="culture-image">
+                    <img src="images/mawazin.png" alt="Mawazine Festival">
+                    <p>Mawazine Festival</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
         <!-- Gallery Section -->
         <section id="gallery" class="section">
@@ -193,5 +341,27 @@
     <footer class="footer">
         <p>&copy; 2026 My Moroccan Journal. Created with ❤️</p>
     </footer>
+    <script>
+    function openTab(event, tabName) {
+        // Hide all tab content
+        const tabContents = document.getElementsByClassName("tab-content");
+        for (let i = 0; i < tabContents.length; i++) {
+            tabContents[i].style.display = "none";
+        }
+
+        // Remove active class from all buttons
+        const tabButtons = document.getElementsByClassName("tab-button");
+        for (let i = 0; i < tabButtons.length; i++) {
+            tabButtons[i].classList.remove("active");
+        }
+
+        // Show the selected tab content
+        document.getElementById(tabName).style.display = "block";
+
+        // Add active class to the clicked button
+        event.currentTarget.classList.add("active");
+    }
+</script>
+
 </body>
 </html>
