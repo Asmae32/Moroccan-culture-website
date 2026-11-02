@@ -5,32 +5,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Moroccan Journal</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Importing Fonts for that "Traveler's Journal" feel -->
+    <!-- Fonts for a "Traveler's Journal" feel -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="hero">
+    <!-- Header Section -->
+    <header class="header">
         <h1>Morocco: A Traveler's Journal</h1>
         <p>Exploring the soul of the Maghreb</p>
     </header>
 
-    <nav class="journal-nav">
-        <a href="#intro">The Intro</a>
-        <a href="#tea">Geographically</a>
-        <a href="#crafts">Culture & Traditions</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#words">Darija</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#geography">Geography</a></li>
+            <li><a href="#cities">The 4 Main Cities</a></li>
+            <li><a href="#culture">Culture & Traditions</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
     </nav>
 
-    <main class="journal-container">
-        <section id="intro" class="journal-entry">
-            <h2><i class="fa-solid fa-location-dot"></i> The Beginning</h2>
-            <p class="entry-text">From the bustling souks of Fez to the silent dunes of Merzouga, Morocco is a place where every corner tells a story. This journal is my way of capturing the colors, the smells, and the traditions that make this country so unique.</p>
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Introduction Section -->
+        <section id="intro" class="section">
+            <h2>Introduction</h2>
+            <p>Morocco is a country of vibrant colors, rich history, and warm hospitality. From the bustling souks of Marrakech to the serene dunes of the Sahara, it offers a journey like no other.</p>
+        </section>
+
+        <!-- Geography Section -->
+<section id="geography" class="section">
+    <h2><i class="fa-solid fa-globe"></i> Geography of Morocco</h2>
+    <div class="geography-content">
+        <div class="geography-text">
+            <p>Morocco is a country of stunning contrasts, where the rugged Atlas Mountains meet the endless sands of the Sahara Desert and the sparkling waters of the Atlantic Ocean and Mediterranean Sea.</p>
+
+            <h3>📍 Location</h3>
+            <p>Morocco is located in <strong>Northwest Africa</strong>, bordered by:</p>
+            <ul>
+                <li><strong>Algeria</strong> to the east and southeast.</li>
+                <li><strong>Western Sahara</strong> to the south.</li>
+                <li>The <strong>Atlantic Ocean</strong> to the west.</li>
+                <li>The <strong>Mediterranean Sea</strong> to the north.</li>
+            </ul>
+            <p>It is separated from Europe by the <strong>Strait of Gibraltar</strong>, which is just 14 kilometers wide at its narrowest point.</p>
+
+            <h3>🏔️ Landscapes</h3>
+            <p>Morocco’s geography is incredibly diverse:</p>
+            <ul>
+                <li><strong>Atlas Mountains:</strong> Stretching across the country, these mountains divide the Mediterranean climate from the Sahara.</li>
+                <li><strong>Sahara Desert:</strong> The vast golden dunes of Merzouga and Zagora offer a surreal and unforgettable experience.</li>
+                <li><strong>Coastal Plains:</strong> Fertile regions along the Atlantic and Mediterranean coasts.</li>
+                <li><strong>Valleys and Oases:</strong> Lush areas like the Draa Valley and Skoura Oasis provide a stark contrast to the arid landscapes.</li>
+            </ul>
+
+<h3>🌍 Climate</h3>
+            <p>Morocco’s climate is incredibly diverse:</p>
+            <ul>
+                <li><strong>Mediterranean:</strong> Mild, wet winters and hot, dry summers along the northern and western coasts.</li>
+                <li><strong>Mountain & Continental:</strong>Colder temperatures, high precipitation, and winter snow in the high elevations of the Atlas and Rif ranges.</li>
+                <li><strong>Arid / Desert:</strong>Hot, dry conditions with extreme temperature shifts in the pre-Saharan and Saharan regions to the south and east.</li>
+            </ul>
+
+        </div>
+        <div class="geography-images">
+            <div class="geography-image">
+                <img src="images/atlas.png" alt="Atlas Mountains">
+                <p>Atlas Mountains</p>
+            </div>
+            <div class="geography-image">
+                <img src="images/sahara.png" alt="Sahara Desert Dunes">
+                <p>Sahara Desert Dunes</p>
+            </div>
+            <div class="geography-image">
+                <img src="images/coastal.png" alt="Coastal Town">
+                <p>Coastal Town</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Cities Section -->
+<section id="cities" class="section">
+    <h2><i class="fa-solid fa-city"></i> Explore Four Imperial Cities of Morocco</h2>
+    <!-- City 1: Rabat -->
+        <div class="dream-category">
+            <h2>Rabat</h2>
+            <p class="dream-desc">Rabat is a vibrant city known for its blend of traditional and modern architecture.</p>
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Set 1 -->
+                    <div class="photo-card"><img src="images/rabat1.png" alt="Rabat 1"></div>
+                    <div class="photo-card"><img src="images/rabat2.png" alt="Rabat 2"></div>
+                    <div class="photo-card"><img src="images/rabat3.png" alt="Rabat 3"></div>
+                    <!-- Set 2 (Duplicate) -->
+                    <div class="photo-card"><img src="images/rabat4.png" alt="Rabat 1"></div>
+                    <div class="photo-card"><img src="images/rabat5.png" alt="Rabat 2"></div>
+                    <div class="photo-card"><img src="images/rabat6.png" alt="Rabat 3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- City 2: Marrakech -->
+        <div class="dream-category">
+            <h2>Marrakech</h2>
+            <p class="dream-desc">Marrakech is a vibrant city known for its bustling souks, historic palaces, and lively atmosphere.</p>
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Set 1 -->
+                    <div class="photo-card"><img src="images/marakech.png" alt="Marrakech 1"></div>
+                    <div class="photo-card"><img src="images/marakech2.png" alt="Marrakech 2"></div>
+                    <div class="photo-card"><img src="images/marakech3.png" alt="Marrakech 3"></div>
+                    <!-- Set 2 (Duplicate) -->
+                    <div class="photo-card"><img src="images/marakech4.png" alt="Marrakech 1"></div>
+                    <div class="photo-card"><img src="images/marakech5.png" alt="Marrakech 2"></div>
+                    <div class="photo-card"><img src="images/marakech6.png" alt="Marrakech 3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- City 3: Meknes -->
+        <div class="dream-category">
+            <h2>Meknes</h2>
+            <p class="dream-desc">Meknes is a historic city in northern Morocco, known for its well-preserved medina and the ruins of the ancient Kasbah of Meknes.</p>
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Set 1 -->
+                    <div class="photo-card"><img src="images/meknes1.png" alt="Meknes 1"></div>
+                    <div class="photo-card"><img src="images/meknes2.png" alt="Meknes 2"></div>
+                    <div class="photo-card"><img src="images/meknes3.png" alt="Meknes 3"></div>
+                    <!-- Set 2 (Duplicate) -->
+                    <div class="photo-card"><img src="images/meknes4.png" alt="Meknes 1"></div>
+                    <div class="photo-card"><img src="images/meknes5.png" alt="Meknes 2"></div>
+                    <div class="photo-card"><img src="images/meknes6.png" alt="Meknes 3"></div>
+                </div>
+            </div>
+        </div>
+        <!-- City 4: Fes -->
+        <div class="dream-category">
+            <h2>Fes</h2>
+            <p class="dream-desc">Fes is one of the oldest cities in the world, known for its medieval architecture and traditional crafts.</p>
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Set 1 -->
+                    <div class="photo-card"><img src="images/fes.png" alt="Fes 1"></div>
+                    <div class="photo-card"><img src="images/fes2.png" alt="Fes 2"></div>
+                    <div class="photo-card"><img src="images/fes3.png" alt="Fes 3"></div>
+                    <!-- Set 2 (Duplicate) -->
+                    <div class="photo-card"><img src="images/fes4.png" alt="Fes 1"></div>
+                    <div class="photo-card"><img src="images/fes5.png" alt="Fes 2"></div>
+                    <div class="photo-card"><img src="images/fes6.png" alt="Fes 3"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Culture & Traditions Section -->
+        <section id="culture" class="section">
+            <h2>Culture & Traditions</h2>
+            <p>Moroccan culture is a blend of Arab, Berber, and European influences. Key traditions include mint tea ceremonies, traditional music, and festivals like Eid al-Fitr.</p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="image-placeholder">🏜️</div>
+                    <p>Sahara Desert</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">🏛️</div>
+                    <p>Historic Mosque</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">🍵</div>
+                    <p>Mint Tea</p>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer">
         <p>&copy; 2026 My Moroccan Journal. Created with ❤️</p>
     </footer>
 </body>
