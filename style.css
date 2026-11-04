@@ -48,7 +48,6 @@ body {
 .navbar li {
     margin: 0 1.5rem;
 }
-
 .navbar a {
     color: #fff;
     text-decoration: none;
@@ -57,18 +56,15 @@ body {
     font-size: 0.9rem;
     transition: color 0.3s;
 }
-
 .navbar a:hover {
     color: #f39c12;
 }
-
 /* Main Content */
 .container {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 0 2rem;
 }
-
 .section {
     background-color: #fff;
     padding: 2rem;
@@ -76,19 +72,16 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 /* Gallery Section */
 .gallery {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
 }
-
 .gallery-item {
     flex: 1;
     text-align: center;
 }
-
 .image-placeholder {
     background-color: #f0e6d2;
     height: 150px;
@@ -99,7 +92,6 @@ body {
     margin-bottom: 1rem;
     border-radius: 4px;
 }
-
 /* Footer */
 .footer {
     background-color: #2c3e50;
